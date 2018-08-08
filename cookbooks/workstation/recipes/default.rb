@@ -12,11 +12,6 @@ package 'ntp' do
  action :install
 end
 
-file '/etc/motd' do
- content "Managed by Chef
- Hostname: #{node['hostname']}
- FQDN : #{node['fqdn ']}
- IPAddress : #{node['ipaddress']}
- CPU MHz : #{node['cpu']['mhz']}
- Owner : Mani"
+template '/etc/motd' do
+ source 'motd.erb'
 end
