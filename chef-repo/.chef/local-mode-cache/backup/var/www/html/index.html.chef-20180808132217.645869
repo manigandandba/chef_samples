@@ -1,0 +1,8 @@
+<h1> My New HTML server on centos-7-1.c.chef-learning-212617.internal</h1>
+ <h2> Welcome to the world of Chef automation!!! </h2>
+ <h3> Hostname : centos-7-1 <br>
+ CPU Model : Intel(R) Xeon(R) CPU @ 2.20GHz <br>
+ CPU Speed : 2200.000 <br>
+ Memory : 3623120kB <br>
+ Ip Address : 10.148.0.2
+</h3>
